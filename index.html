@@ -1,61 +1,236 @@
-
 <html>
 <title>Aiden Brady</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="ab.css">
+
+<head>
+<style>
+a:hover {
+  background-color: orange;
+  background-blend-mode: saturation;
+}
+
+.hide {
+  display: none;
+
+}
+
+.hide2 {
+  display: none;
+}
+
+.hide3 {
+  display: none;
+}
+
+
+.hover_image:hover + .hide {
+  display: inline-block;
+
+
+}
+
+.hover_image_two:hover + .hide + .hide2 {
+  display: block;
+
+}
+
+.hover_image_three:hover + .hide + .hide2 +.hide3 {
+  display: block;
+}
+
+img.bines:hover {
+  position: relative;
+  left: 70%;
+  bottom: 50%;
+}
+
+
+
+ td {
+  border-bottom: 3px dotted #1515FF;
+}
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+a {
+
+color: #1d1e1d;
+
+}
+
+p {
+
+color: #1d1e1d;
+
+}
+
+
+
+</style>
+</head>
+
 <body>
 
-  <!--HeaderBlockName-->
+
+<! -- The sections of the main page -->
+
+<div class="w3-cell-row">
+
+  <! -- The Sidebar-->
+
+    <div class="w3-container w3-cell" style="padding-left: 5%; padding-top: 5%; width:28%; background-color: rgb(255, 238, 239);">
+
+
+      <u class="w3-wide" style="text-decoration: none;color:rgb(22,22,255);font-size:2.5em;"> Aiden  Brady </u>
+
+      <table style="width: 270px; margin-left: auto;
+            margin-right: auto; background-color: rgb(255, 238, 239);"
+            cellspacing="2" cellpadding="2"  align="left">
+            <tbody>
+              <tr>
+  
+  
+                        <tr>
+                          <td style="padding-bottom:15px;">
+  
+                            <br>
+                            <p class= "w3-wide" style="color:rgb(22,22,255);text-decoration: none;font-size: 1.8em; font-weight:bold">Artworks
+                            </p>
+  
+  
+  
+                            <a class= "w3-wide" style="color:rgb(22,22,255);text-decoration: none; font-size: 1.5em; margin-left:5px;"
+                              href="home_house.html">Homehouse
+                            </a>
+  
+                            <br>
+                            <br>
+  
+  
+                            <a href=different_things.html class="w3-wide" style="color:rgb(22,22,255);text-decoration: none; font-size: 1.5em;  margin-left:5px;">
+                               different things
+                            </a>
+  
+                            <br>
+                            <br>
+  
+  
+                            <a href="unseen_borders.html"
+                              class= "w3-wide" style="color:rgb(22,22,255);text-decoration: none; font-size: 1.5em; margin-left:5px;">Unseen Borders</a><br>
+  
+  
+                            <!--
+                            <br>
+  
+                            <a href="sudo_semiotics.html"
+                            class= "w3-wide" style="color:rgb(22,22,255);text-decoration: none; font-style; font-weight: ;font-size: 1.5em; margin-left:5px;">Sudo Semiotics</a><br>
+                            -->
+  
+                            <br>
+  
+  
+                          </td>
+                        </tr>
+  
+                        <tr>
+                          <td style="padding-bottom:20px; padding-top:20px;">
+                            <a href="https://listen.dublindigitalradio.com/resident/one-less-colour"  class= "w3-wide" style="color:rgb(22,22,255);text-decoration: none;font-size: 1.5em;margin-left:5px;">One Less Colour</span></a><br>
+  
+  
+                          </td>
+                        </tr>
+  
+  
+                        <tr>
+                          <td style="padding-bottom:20px; padding-top:20px;">
+                            <a href=CV.html class="w3-wide" style="color:rgb(22,22,255);text-decoration: none;font-weight:900 ;font-size: 1.5em; ">
+                            CV
+                            </a>
+  
+                          </td>
+                        </tr>
+  
+                        <!-- <tr>
+                          <td style="padding-bottom:20px;padding-top:20px;">
+                            <a href=blog.html class="w3-wide" style="color:rgb(22,22,255);font-weight: bold;font-size: 1.5em;">
+                                    Blog + archive
+  
+                            </a>
+  
+                          </td>
+                        </tr> -->
+  
+  
+  
+                      </tr>
+                    </tbody>
+                  </table>
 
 
 
-  <div class="w3-container w3-right"
-   id="myHeaderRight">
-
-  </div>
-
-<!-- Sidebar -->
-<div class="w3-sidebar w3-bar-block w3-collapse w3-animate-left" style="width:22%; padding-left: 3%;"  id="mySidebar">
-  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
-  <h1 class="w3-bar-item">  </h1>
-
-  <a href=index.html class="w3-bar-item w3-button" style="padding-left: 10%;">Aiden Brady</a>
-
-  <h1 class="w3-bar-item">  </h1>
-  <br>
-
-  <a href=homehouse.html class="w3-bar-item w3-button" style="padding-left: 10%;">Homehouse</a>
-  <br>
-  <a href=different_things.html class="w3-bar-item w3-button" style="padding-left: 10%;">different things</a>
-  <br>
-  <a href=unseen_borders.html class="w3-bar-item w3-button" style="padding-left: 10%;">"Unseen Borders"</a>
-  <br>
-
-  <br>
-    <br><br><br><br><br><br><br>
+      </div>
 
 
-</div>
-<div  class="w3-main" style="margin-left:15%;">
-  <div class="w3-white" >
-  <button class="w3-button w3-teal w3-xlarge w3-hide-large"  onclick="w3_open() ">&#9776;</button>
-    <div class="w3-container-fluid" style="margin-left:11%">
+
+      <! -- Main Body-->
+
+    <div class="w3-container w3-cell" style="width:80%; background-color: rgb(255, 238, 239);">
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+
+    <p>
+
+
+    </p>
 
 
 
     </div>
-  </div>
-
 
 </div>
 
-<script>
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
 </body>
+
 </html>
